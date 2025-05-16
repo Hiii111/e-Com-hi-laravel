@@ -39,5 +39,24 @@
 
     </div>
 
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h1>Tranding Products</h1>
+            @foreach ($products as $item)
+
+
+            <div class="col-md-4">
+                <div    >
+                <img class="slider-image" src="{{$item['gallery']}}">
+                <div class="text-center">
+                    <h3>{{$item['name']}}</h3>
+
+                </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+
 
 @endsection
