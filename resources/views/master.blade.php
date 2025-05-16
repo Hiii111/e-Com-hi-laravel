@@ -22,5 +22,8 @@
         height: 500px;
         padding-top: 100px;
     }
+    img.slider-image{
+        height: 400px !important;
+    }
 </style>
 </html>
